@@ -1,0 +1,28 @@
+{
+  "name": "mi-swe-sem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behalka/MI-SWE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/behalka/MI-SWE/issues"
+  },
+  "homepage": "https://github.com/behalka/MI-SWE#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "cheerio": "^0.22.0",
+    "csvtojson": "^1.0.3",
+    "json2csv": "^3.7.1",
+    "lodash": "^4.16.6",
+    "request": "^2.76.0",
+    "request-promise": "^4.1.1"
+  }
+}

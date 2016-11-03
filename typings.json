@@ -1,0 +1,9 @@
+{
+  "globalDependencies": {
+    "bluebird": "registry:dt/bluebird#3.0.0+20160928162057",
+    "cheerio": "registry:dt/cheerio#0.17.0+20160930124405",
+    "lodash": "registry:dt/lodash#4.14.0+20161004174455",
+    "node": "registry:dt/node#6.0.0+20160831021119",
+    "request-promise": "registry:dt/request-promise#4.1.0+20161013074249"
+  }
+}
