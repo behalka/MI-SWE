@@ -10,7 +10,7 @@ const csv = require('./csvHelper')
 
 function scrapeTopPlayedGames(response, result) {
   return new Promise((resolve, reject) => {
-    const $ = cheerio.load(response)
+    const $ = cheerio.load(response.body)
     $('#detailStats').find('tr.player_count_row').each(function(i, elem) {
       const row = $(elem).find('td')
       const game = {}
